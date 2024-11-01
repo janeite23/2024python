@@ -5,7 +5,7 @@ import pandas as pd
 @st.cache
 def load_data():
     # 데이터 파일을 GitHub에 업로드하고 여기에 그 URL을 넣으세요
-    url = 'https://raw.githubusercontent.com/your-repo-path/CRS_2022_data.txt'
+    url = 'CRS 2022 data.txt'
     return pd.read_csv(url, delimiter='|')
 
 # 애플리케이션 제목
